@@ -13,5 +13,6 @@
       @yield('content')
       @include('layouts._footer')
     </div>
+    <script src="{{route('home')}}/js/app.js"></script>
   </body>
 </html>
